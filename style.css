@@ -1,0 +1,116 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    background-image: url(./pic/bg.jpg);
+    background-attachment: fixed;
+    line-height: 24px;
+    width: 1024px;
+    margin: 0 auto;
+}
+p, h2 {
+    text-indent: 20px;}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ------------------------------------header block-------------------*/
+
+.header-menu {
+    background-color: rgba(235, 148, 19, 0.6);
+
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.logo img {
+    float: left;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 5px;
+}
+.logo img:hover {
+    border: 3px solid white;
+    margin: 4px 0 6px 4px;
+    box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5);
+}
+
+.header-menu-item1, .header-menu-item2{
+    float: right;
+    margin: 6px 10px 5px 1px;
+    padding:2px;
+    background: none;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.header-menu-item1:hover, .header-menu-item2:hover {
+    background: rgba(235, 148, 25, 0.5);
+    margin: 5px 11px 6px 0;
+    box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5);
+}
+
+
+.header-menu-item1 img, .header-menu-item2 img {
+    height: 50px;
+    border: none;
+    margin: 5px 5px 0 5px;
+
+
+}
+/*section>.header-menu-item2 {
+    border-radius: 10% 50px 50px 10%;
+    margin-right: 5px;
+}
+section>.header-menu-item2:hover {
+    margin: 4px 6px 7px 0;
+}*/
+
+/* -------------------main block------------------------------ */
+main {
+
+    background-color: rgba(235, 148, 19, 0.3);
+    padding: 10px 10px 100px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+
+main a:link {
+    text-decoration: none;
+    color: lightseagreen;
+}
+main a:hover {
+    color: darkgreen;
+    text-shadow: 1px 1px 2px green;
+}
+main img {
+    float: right;
+    margin: 10px 0 10px 30px;
+    border-radius: 10px;
+}
+
+.main-sep {
+    background-color: black;
+    width: auto;
+    height: 1px;
+}
+
+
+.main-about-me, .main-my-hobby,  .main-my-gh, .main-lesson {
+    padding: 10px 20px ;
+    box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.75);
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.small-text {
+    font-size: 10px;
+}
