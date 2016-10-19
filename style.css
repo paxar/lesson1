@@ -2,8 +2,10 @@ body {
 
     font-family: 'Roboto', sans-serif;
     font-size:18px;
+
     /*background-image: url(./pic/bg.jpg);
     background-attachment: fixed;*/
+
     line-height: 24px;
     width: 1024px;
     margin: 0 auto;
@@ -31,11 +33,13 @@ p, h2 {
     border-radius: 50%;
     border: 3px solid white;
     margin: 5px;
+
 }
 .logo img:hover {
     border: 3px solid white;
     margin: 4px 0 6px 4px;
     box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5);
+
 }
 
 .header-menu-item{
