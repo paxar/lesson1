@@ -2,8 +2,8 @@ body {
 
     font-family: 'Roboto', sans-serif;
     font-size:18px;
-    background-image: url(./pic/bg.jpg);
-    background-attachment: fixed;
+    /*background-image: url(./pic/bg.jpg);
+    background-attachment: fixed;*/
     line-height: 24px;
     width: 1024px;
     margin: 0 auto;
@@ -38,7 +38,7 @@ p, h2 {
     box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5);
 }
 
-.header-menu-item1, .header-menu-item2{
+.header-menu-item{
     float: right;
     margin: 6px 10px 5px 1px;
     padding:2px;
@@ -47,27 +47,20 @@ p, h2 {
     border-radius: 50%;
 }
 
-.header-menu-item1:hover, .header-menu-item2:hover {
+.header-menu-item:hover {
     background: rgba(235, 148, 25, 0.5);
     margin: 5px 11px 6px 0;
     box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5);
 }
 
 
-.header-menu-item1 img, .header-menu-item2 img {
+.header-menu-item img {
     height: 50px;
     border: none;
-    margin: 5px 5px 0 5px;
+    margin: 5px 5px -1px 5px;
 
 
 }
-/*section>.header-menu-item2 {
-    border-radius: 10% 50px 50px 10%;
-    margin-right: 5px;
-}
-section>.header-menu-item2:hover {
-    margin: 4px 6px 7px 0;
-}*/
 
 /* -------------------main block------------------------------ */
 main {
@@ -76,18 +69,18 @@ main {
     padding: 10px 10px 100px 10px;
     margin-top: 20px;
     border-radius: 10px;
-
 }
-
 
 main a:link {
     text-decoration: none;
     color: lightseagreen;
 }
+
 main a:hover {
     color: darkgreen;
     text-shadow: 1px 1px 2px green;
 }
+
 main img {
     float: right;
     margin: 10px 0 10px 30px;
@@ -101,7 +94,10 @@ main img {
 }
 
 
-.main-about-me, .main-my-hobby,  .main-my-gh, .main-lesson {
+.main-about-me,
+.main-my-hobby,
+.main-my-gh,
+.main-lesson {
     padding: 10px 20px ;
     box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.75);
     background-color: white;
