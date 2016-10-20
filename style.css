@@ -1,18 +1,17 @@
 body {
-
     font-family: 'Roboto', sans-serif;
     font-size:18px;
 
     /*background-image: url(./pic/bg.jpg);
-    background-attachment: fixed;*/
+    background-attachment: fixed;*/               /* background off or on? WTF?*/
 
     line-height: 24px;
     width: 1024px;
     margin: 0 auto;
 }
 p, h2 {
-    text-indent: 20px;}
-
+    text-indent: 20px;
+}
 .clearfix::after {
     content: "";
     display: table;
@@ -23,25 +22,20 @@ p, h2 {
 
 .header-menu {
     background-color: rgba(235, 148, 19, 0.6);
-
     border-radius: 50px;
     margin-top: 20px;
 }
-
 .logo img {
     float: left;
     border-radius: 50%;
     border: 3px solid white;
     margin: 5px;
-
 }
 .logo img:hover {
     border: 3px solid white;
     margin: 4px 0 6px 4px;
     box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5);
-
 }
-
 .header-menu-item{
     float: right;
     margin: 6px 10px 5px 1px;
@@ -50,54 +44,42 @@ p, h2 {
     border: 3px solid white;
     border-radius: 50%;
 }
-
 .header-menu-item:hover {
     background: rgba(235, 148, 25, 0.5);
     margin: 5px 11px 6px 0;
     box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5);
 }
-
-
 .header-menu-item img {
     height: 50px;
     border: none;
     margin: 5px 5px -1px 5px;
-
-
 }
 
 /* -------------------main block------------------------------ */
-main {
-
+.main-block {
     background-color: rgba(235, 148, 19, 0.3);
     padding: 10px 10px 100px 10px;
     margin-top: 20px;
     border-radius: 10px;
 }
-
-main a:link {
+.main-block a:link{
     text-decoration: none;
     color: lightseagreen;
 }
-
-main a:hover {
+.main-block a:hover{
     color: darkgreen;
     text-shadow: 1px 1px 2px green;
 }
-
-main img {
+.main-block img{
     float: right;
     margin: 10px 0 10px 30px;
     border-radius: 10px;
 }
-
 .main-sep {
     background-color: black;
     width: auto;
     height: 1px;
 }
-
-
 .main-about-me,
 .main-my-hobby,
 .main-my-gh,
@@ -109,8 +91,12 @@ main img {
     text-align: justify;
     margin-bottom: 20px;
 }
-
-
 .small-text {
     font-size: 10px;
+}
+/*---------------------- lesson1----------------*/
+
+.canvas {
+    float: right;
+    margin: 10px 0;
 }
